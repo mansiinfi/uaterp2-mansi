@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="uaterp.CreateWork">
+        <methods>
+          <include name="TenderNICRefernceNumber"/>
+          <include name="createworktest1WorkOrderNo"/>
+          <include name="WorkOrderValueandAgreementAmt"/>
+          <include name="creatework"/>
+          <include name="TenderNICID"/>
+        </methods>
+      </class> <!-- uaterp.CreateWork -->
+      <class name="uaterp.BOQ">
+        <methods>
+          <include name="updatepaidLastPayment"/>
+        </methods>
+      </class> <!-- uaterp.BOQ -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
